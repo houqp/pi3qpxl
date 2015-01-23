@@ -5,11 +5,6 @@ use <inc/frame_mount_connector.scad>
 plate_holder_thickness = 11;
 
 
-module horizontal_m3_hole() {
-    translate([0, 60, 0])
-        rotate([90, 0, 0])
-            m3_hole(60);
-}
 
 module plate_holder(mount_height, has_nut_hole) {
         difference() {
