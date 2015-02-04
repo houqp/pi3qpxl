@@ -26,4 +26,4 @@ module m8_plate_holder(mount_height, has_nut_hole) {
 }
 
 rotate([0, -90, 0])
-m8_plate_holder(60, true);
+m8_plate_holder(76, true);

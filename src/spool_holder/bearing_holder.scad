@@ -5,7 +5,7 @@ $fn = 60;
 holder_thickness = 20.;
 
 
-bearing_h = bearing_608zz_h;
+bearing_h = bearing_608zz_h+0.5;
 bearing_r = bearing_608zz_d/2;
 module m8_bearing() {
     rotate([90, 0, 0]) cylinder(r=bearing_r, h=bearing_h);
