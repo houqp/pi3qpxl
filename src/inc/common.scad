@@ -12,6 +12,7 @@ bearing_608zz_d = 22;
 bearing_608zz_r = bearing_608zz_d/2;
 
 frame_thickness = 3.14;
+frame_width = 55.05;
 m3_r = 1.475;
 module m3_hole(l) {
     cylinder(r=m3_r, h=l);
